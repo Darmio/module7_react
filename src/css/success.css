@@ -1,0 +1,26 @@
+.success-field {
+    position: relative;
+    top: 5px;
+    display: grid;
+    grid-template-columns: 3vw auto 5vw;
+    width: 100%;
+    background-color: rgb(175, 233, 218);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 10;
+}
+
+.success-field * {
+    color: rgb(48, 48, 80);
+    font-size: 20px;
+    text-align: left;
+}
+
+.success-field section * {
+    list-style: none;
+}
+
+.close-success {
+    text-align: center;
+    cursor: pointer;
+}

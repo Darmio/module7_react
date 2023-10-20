@@ -1,0 +1,28 @@
+.tag-input {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+#tagName {
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.tag-input button {
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    margin-left: -1px;
+}
+
+.tags {
+    height: 20px;
+    overflow-y: auto;
+}
+
+.tag {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px;
+}

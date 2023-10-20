@@ -1,0 +1,82 @@
+.btn-field {
+    width: 80%;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.btn-field * {
+    padding: 10px;
+}
+
+/*.btn-field {
+    width: 60%;
+    border-radius: 10px;
+} */
+.inner-search input{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    border-radius: 10px;  
+}
+
+.inner-search {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    border-radius: 10px;  
+}
+
+.inner-search-btn{
+    width: 80px;
+    padding: 10px;
+    justify-content: flex-start;
+    border-radius: 10%;  
+    align-self: center;
+}
+
+.btn-field-cl button {
+    margin-left: -1px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-radius: 10%;
+}
+
+.btn-field button {
+    margin-right: 2px;
+    border-radius: 10%;
+    border-color: rgb(179, 175, 175);
+    height: 45px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.outer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 100%;
+}
+.inner
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.inner button{
+    margin: 2px;
+}
+.input-numb{
+    max-width: 50px;
+    min-width: 20px;
+  }

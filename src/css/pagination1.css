@@ -1,0 +1,31 @@
+.pagination-block {
+    position: fixed;
+    bottom: 60px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    vertical-align: bottom;
+}
+
+.page-buttons {
+    display: inline-block;
+    width: fit-content;
+    margin: 0 auto;
+    grid-column: 2;
+}
+
+.numbered-buttons {
+    min-width: 20px;
+    max-width: fit-content;
+    overflow-x: hidden;
+}
+
+#items-limit {
+    position: fixed;
+    width: 40px;    
+    text-align: center;
+    height: 40px;
+    right: 3vw;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}

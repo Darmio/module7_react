@@ -1,0 +1,13 @@
+.sorting-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .sorting-icons img {
+    width: 10px;
+    height: 10px;
+    filter: invert(1);
+  }

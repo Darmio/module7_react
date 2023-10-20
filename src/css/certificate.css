@@ -1,0 +1,17 @@
+
+.row {
+    display: flex;
+  }
+
+.row button {
+        align-items: center;
+        vertical-align: middle;
+}
+
+.row-tag{
+    justify-content: flex-start;
+    align-self: left;
+    width: 80%;
+    min-width: 50%;
+    max-width: 100%
+}

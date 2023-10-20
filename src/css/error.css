@@ -1,0 +1,25 @@
+.error-field {
+    position: relative;
+    top: 5px;
+    display: grid;
+    grid-template-columns: 3vw auto 5vw;
+    width: 100%;
+    background-color: rgb(245, 158, 162);
+    padding: 10px;
+    z-index: 10;
+}
+
+.error-field * {
+    color: red;
+    font-size: 20px;
+    text-align: left;
+}
+
+.error-field section * {
+    list-style: none;
+}
+
+.close-error {
+    text-align: center;
+    cursor: pointer;
+}

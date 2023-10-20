@@ -1,0 +1,141 @@
+.container {
+    display:table;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    position: absolute;
+    background-color: white; 
+}
+
+.container label{
+    margin: 5px 10px 0px 10px;
+    color: gray;
+}
+
+.container input,
+.container select {   
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 94%;
+    margin: 10px 10px 5px 10px;
+}
+
+.title {
+    height: 40px;
+    text-align: left;
+    vertical-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0 5px 10px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #A4A0A0;
+    display:table-cell;
+    float: left;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 1px;   
+    height: 250px; /* Should be removed. Only for demonstration */
+    background-color: white;
+}
+
+.row{
+    margin: 5px 10% 0px 10%;
+    height: 30px;
+    background-color: white;
+    width: 80%;
+}
+
+.form-row-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:white;
+    margin: 20px 0 0 10px;
+    height: 30px;
+    width: 95%;
+}
+
+button {
+    width: 100px;
+    color: white;
+    border: 1px solid;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+} 
+
+.column input {
+    padding: 10px 10px 10px 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: white;
+}
+
+.btn button {
+    width: 40%;
+    color: white;
+    border: 1px solid;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+.btn { 
+    margin: 10px 0px 10px 50%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.btn-green {
+    background-color:lightgreen;
+   
+}
+
+.btn-gray {
+    background-color:white;
+    color: gray;
+    border: 1px solid gray;
+
+}
+
+.form {
+    background-color: white;
+}
+
+.btn-link{
+    font-weight:400;
+    color: blue;
+    background-color:transparent;
+    border-color:transparent;
+}
+
+.btn-link:hover{
+    color:#0056b3;
+    text-decoration:underline;
+    background-color:transparent;
+    border-color:transparent
+}
+.btn-link:focus{
+    text-decoration:underline;
+    border-color:transparent;
+    box-shadow:none
+}
+
+.btn-link:disabled{
+    color: blue;
+    pointer-events:none
+}
